@@ -52,7 +52,7 @@ reviveHearts: 1
 # The amount of hearts the killer should gain and the victim should loose
 heartsPerKill: 1
 # The amount of hearts a player should loose, when dying naturally
-heartsPerNaturalDeath: 1
+heartsPerNaturalDeath: 0
 # The minimal amount of hearts. If a player gets to this amount of hearts, they will be eliminated.
 # PLEASE ONLY CHANGE IF YOU KNOW WHAT YOU ARE DOING!
 minHearts: 0
@@ -67,7 +67,7 @@ heartItem:
   # This item will be dropped when a player is killed by another player and "dropHeartsPlayer" is enabled
   kill: "defaultheart"
   # This item will be dropped when a player is killed by natural causes and "dropHeartsNatural" is enabled
-  naturalDeath: "defaultheart"
+  naturalDeath:
   # This item will be dropped if a player is killed, the killer is still on cooldown and "heartGainCooldown.dropOnCooldown" is enabled
   heartGainCooldown: "defaultheart"
   # This item will be dropped if a player is killed, the killer has reached the max amount of hearts and "dropHeartsIfMax" is enabled
